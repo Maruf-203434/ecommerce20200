@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const Offers = () => {
 
     const calculateTimeLeft  = () =>{
-        const difference  = +new Date ("2024-10-08T12:15:00") - +new Date();
+        const difference  = +new Date ("2024-12-08T12:15:00") - +new Date();
         let timeleft  = {}
 
         if(difference > 0) {
